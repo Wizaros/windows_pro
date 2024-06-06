@@ -1,0 +1,10 @@
+﻿  Assembling Source.asm...
+  Lab8.cpp
+  LINK : не найден или не выполнена сборка C:\Users\Максим\Dropbox\Конспекты\Ассемблер\Projects\Lab8\x64\Debug\Lab8.exe при последней инкрементной компоновке; выполняется полная компоновка
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6003: Не удалось запустить указанный исполняемый файл задачи "link.exe". System.IO.IOException: Процесс не может получить доступ к файлу "x64\Debug\Lab8.tlog\link.read.2.tlog", так как этот файл используется другим процессом.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6003:    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6003:    в System.IO.FileInfo.Delete()
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6003:    в Microsoft.Build.CPPTasks.TrackedVCToolTask.DeleteEmptyFile(ITaskItem[] filesToDelete)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6003:    в Microsoft.Build.CPPTasks.TrackedVCToolTask.PostExecuteTool(Int32 exitCode)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6003:    в Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6003:    в Microsoft.Build.Utilities.ToolTask.Execute()
