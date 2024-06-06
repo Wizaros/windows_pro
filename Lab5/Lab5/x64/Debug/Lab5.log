@@ -1,0 +1,2 @@
+﻿Lab5.obj : error LNK2019: ссылка на неразрешенный внешний символ IntegerShift_ в функции main.
+C:\Users\Максим\Dropbox\Конспекты\Ассемблер\Projects\Lab5\x64\Debug\Lab5.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

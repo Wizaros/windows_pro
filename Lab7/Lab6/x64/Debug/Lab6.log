@@ -1,0 +1,6 @@
+﻿  Assembling source.asm...
+  Lab6.cpp
+C:\Users\Максим\Dropbox\Конспекты\Ассемблер\Projects\Lab6\Lab6\Lab6.cpp(20,20): error C2664: "int IntegerDiv_(uint8_t,uint16_t,uint32_t,uint64_t,uint8_t,uint16_t,uint32_t,uint64_t *,uint64_t *)": невозможно преобразовать аргумент 8 из "uint64_t **" в "uint64_t *"
+C:\Users\Максим\Dropbox\Конспекты\Ассемблер\Projects\Lab6\Lab6\Lab6.cpp(20,53): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Users\Максим\Dropbox\Конспекты\Ассемблер\Projects\Lab6\Lab6\Lab6.cpp(6,17): message : см. объявление "IntegerDiv_"
+C:\Users\Максим\Dropbox\Конспекты\Ассемблер\Projects\Lab6\Lab6\Lab6.cpp(20,20): message : при попытке сопоставить список аргументов "(uint8_t, uint16_t, uint32_t, uint64_t, uint8_t, uint16_t, uint32_t, uint64_t **, uint64_t **)"
